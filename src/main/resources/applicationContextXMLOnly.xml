@@ -13,7 +13,7 @@
           class="spring_introduction.config_XML_only.models_1.Cat_1"
           init-method="initMethod"
           destroy-method="destroyMethod">
-        <constructor-arg value="${cat.name}"/>
+        <constructor-arg value="${cat.name}"/> <!-- Добавление аргументов конструктора -->
 
         <!--          <property name="name" value="${cat.name}" />-->
     </bean>
@@ -26,8 +26,8 @@
     <bean id="myPerson"
           class="spring_introduction.config_XML_only.models_1.Person_1"
           scope="prototype">
-        <property name="name" value="${person.name}"/>
-        <property name="age" value="${person.age}"/>
+        <property name="name" value="${person.name}"/> <!-- -->
+        <property name="age" value="${person.age}"/> <!-- Добавление аргументов при помощи сеттера из property файла -->
         <property name="pet" ref="${pet.class}"/>
     </bean>
 
