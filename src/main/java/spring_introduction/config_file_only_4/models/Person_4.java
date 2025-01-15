@@ -1,14 +1,14 @@
-package spring_introduction.config_XML_only.models_1;
+package spring_introduction.config_file_only_4.models;
 
-public class Person_1 {
+public class Person_4 {
     private String name;
     private int age;
-    private Pet_1 pet;
+    private Pet_4 pet;
 
-    public Person_1() {
+    public Person_4() {
     }
 
-    public Person_1(Pet_1 pet) {
+    public Person_4(Pet_4 pet) {
         this.pet = pet;
     }
 
@@ -33,11 +33,11 @@ public class Person_1 {
         this.age = age;
     }
 
-    public Pet_1 getPet() {
+    public Pet_4 getPet() {
         return pet;
     }
 
-    public void setPet(Pet_1 pet) {
+    public void setPet(Pet_4 pet) {
         this.pet = pet;
     }
 }

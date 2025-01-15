@@ -7,7 +7,7 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="spring_introduction.config_XML_and_annotations.models_2" />
+    <context:component-scan base-package="spring_introduction.config_XML_and_annotations_2.models" />
     <context:property-placeholder location="app.properties"/>
 
 </beans>

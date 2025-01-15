@@ -1,7 +1,7 @@
-package spring_introduction.config_XML_only;
+package spring_introduction.config_XML_only_1;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import spring_introduction.config_XML_only.models_1.Person_1;
+import spring_introduction.config_XML_only_1.models.Person_1;
 
 public class TestAPP_1 {
     public static void main(String[] args) {

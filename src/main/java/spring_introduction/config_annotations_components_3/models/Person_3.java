@@ -1,20 +1,20 @@
-package spring_introduction.config_XML_and_annotations.models_2;
+package spring_introduction.config_annotations_components_3.models;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component("personBean")
-public class Person_2 {
+public class Person_3 {
     private String name;
     private int age;
-    private Pet_2 pet;
+    private Pet_3 pet;
 
-    public Person_2() {
+    public Person_3() {
     }
 
     @Autowired //внедрение зависимости Pet с уточнением кого именно потому что сомпонентов типа Prt >1
-    public Person_2(@Qualifier("dogBean") Pet_2 pet) {
+    public Person_3(@Qualifier("dogBean") Pet_3 pet) {
         this.pet = pet;
     }
 
@@ -39,11 +39,11 @@ public class Person_2 {
         this.age = age;
     }
 
-    public Pet_2 getPet() {
+    public Pet_3 getPet() {
         return pet;
     }
 
-    public void setPet(Pet_2 pet) {
+    public void setPet(Pet_3 pet) {
         this.pet = pet;
     }
 }

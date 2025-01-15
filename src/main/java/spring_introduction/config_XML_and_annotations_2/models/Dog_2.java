@@ -1,4 +1,4 @@
-package spring_introduction.config_XML_and_annotations.models_2;
+package spring_introduction.config_XML_and_annotations_2.models;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

@@ -1,12 +1,16 @@
-package spring_introduction.config_XML_only.models_1;
+package spring_introduction.config_XML_and_annotations_2.models;
 
-public abstract class Pet_1 {
+public abstract class Pet_2 {
 private String name;
 
-    public Pet_1() {
+    {
+        name = "pet";
     }
 
-    public Pet_1(String name) {
+    public Pet_2() {
+    }
+
+    public Pet_2(String name) {
         this.name = name;
     }
 

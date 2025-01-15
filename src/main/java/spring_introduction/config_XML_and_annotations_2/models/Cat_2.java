@@ -1,11 +1,17 @@
-package spring_introduction.config_XML_only.models_1;
+package spring_introduction.config_XML_and_annotations_2.models;
 
-public class Cat_1 extends Pet_1{
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
-    public Cat_1() {
+@Component("catBean")
+public class Cat_2 extends Pet_2 {
+
+    public Cat_2() {
     }
 
-    public Cat_1(String name) {
+    @Autowired
+    public Cat_2(@Value("${cat.name}") String name) { //внедрение значения аргумента через консруктор
         super(name);
     }
 

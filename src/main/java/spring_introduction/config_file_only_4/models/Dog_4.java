@@ -1,11 +1,11 @@
-package spring_introduction.config_XML_only.models_1;
+package spring_introduction.config_file_only_4.models;
 
-public class Dog_1 extends Pet_1 {
+public class Dog_4 extends Pet_4 {
 
-    public Dog_1() {
+    public Dog_4() {
     }
 
-    public Dog_1(String name) {
+    public Dog_4(String name) {
         super(name);
     }
 
